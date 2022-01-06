@@ -9,9 +9,9 @@ import re
 
 # ldap info
 ldap_server = '10.0.0.77'
-ldap_user = 'cn=Manager,dc=suweipeng,dc=org,dc=cn'
+ldap_user = 'cn=Manager,dc=xxx,dc=org,dc=cn'
 ldap_pwd = '123456'
-ldap_search_base = 'ou=People,dc=suweipeng,dc=org,dc=cn'
+ldap_search_base = 'ou=People,dc=xxx,dc=org,dc=cn'
 
 
 def search_user(user_name):
